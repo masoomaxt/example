@@ -25,7 +25,7 @@ UserSchema.pre('save',function(next){
             user.Password=hash
             next()
         }
-    })
+    })//hello
 })
 
 const User=mongoose.model("User",UserSchema)
